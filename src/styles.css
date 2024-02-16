@@ -1,5 +1,12 @@
+:root {
+  --primary-color: #e46161;
+  --secondary-color: #f1b963;
+  --tertiary-color: #f8f398;
+  --accent-color: #cbf078;
+}
+
 body {
-  background-color: #f1b963;
+  background-color: var(--secondary-color);
   font-family: "Inria Sans", sans-serif;
 }
 
@@ -14,7 +21,7 @@ h1 {
   text-align: center;
   font-size: 48px;
   line-height: 1.2;
-  color: #e46161;
+  color: var(--primary-color);
 }
 
 form {
@@ -25,14 +32,14 @@ form {
   padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 30px;
-  background-color: #f8f398;
+  background-color: var(--tertiary-color);
 }
 
 .hint {
   line-height: 1.5;
   font-size: 13px;
   margin-top: 5px;
-  color: #e46161;
+  color: var(--primary-color);
   opacity: 0.8;
 }
 
@@ -43,13 +50,13 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #e46161;
+  color: var(--primary-color);
 }
 
 .submit-button {
   margin-left: 10px;
-  background-color: #cbf078;
-  color: #e46161;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
   border: none;
   border-radius: 50px;
   padding: 14px 24px;
@@ -58,12 +65,12 @@ form {
 }
 
 .poem {
-  background-color: #f8f398;
-  color: #e46161;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
   font-size: 16px;
   padding: 20px;
   line-height: 2;
-  border-left: 8px solid #cbf078;
+  border-left: 8px solid var(--accent-color);
 }
 
 .hidden {
@@ -86,7 +93,7 @@ form {
 }
 
 strong {
-  color: #f1b963;
+  color: var(--secondary-color);
   font-weight: 900;
 }
 
@@ -94,15 +101,15 @@ footer {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
-  color: #e46161;
+  color: var(--primary-color);
 }
 
 a {
-  color: #e46161;
+  color: var(--primary-color);
   font-weight: 700;
   transition: all 250ms ease-in-out;
 }
 
 a:hover {
-  color: #f8f398;
+  color: var(--tertiary-color);
 }
