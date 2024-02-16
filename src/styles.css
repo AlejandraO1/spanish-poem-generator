@@ -19,10 +19,21 @@ h1 {
 
 form {
   display: flex;
-  padding: 30px;
+}
+
+.form-container {
+  padding: 15px 20px;
   border-radius: 10px;
   margin-bottom: 30px;
   background-color: #f8f398;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 13px;
+  margin-top: 5px;
+  color: #e46161;
+  opacity: 0.8;
 }
 
 .instructions {
@@ -53,6 +64,25 @@ form {
   padding: 20px;
   line-height: 2;
   border-left: 8px solid #cbf078;
+}
+
+.hidden {
+  display: none;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 strong {
