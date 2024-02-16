@@ -55,6 +55,11 @@ form {
   border-left: 8px solid #cbf078;
 }
 
+strong {
+  color: #f1b963;
+  font-weight: 900;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
